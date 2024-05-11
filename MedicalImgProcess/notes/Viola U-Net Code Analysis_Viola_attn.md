@@ -13,7 +13,7 @@
 * **Viola_attn**：
 
 ```python
-		viola_j = xs * ys + ys*zs + zs*xs       # 0-3
+        viola_j = xs * ys + ys*zs + zs*xs       # 0-3
         viola_m = xs * ys * zs                  # 0-1  
         viola_a = self.relu(xt + yt + zt)       # 0-3
 
