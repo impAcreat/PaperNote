@@ -30,7 +30,7 @@
 
 ****
 
-### Methods（Viola Attention）
+### Methods
 
 * 通过 **Viola Attention**，将融合的空间正交和跨信道特征有效地插入到U-Net 解码分支
 
@@ -59,17 +59,15 @@
   * 是否对称
 
 
-## Related Work
+#### Related Work
 
-### U-Net
+* U-Net
+
+* Dense dilated convolutions merging（DDCM）
 
 #### Squeeze-and-Excitation（SE）
 
 * 通过清晰地模拟通道与二维特征平面的相互依存关系，重新矫正通道特征响应（channel-wise feature responses）
-
-#### Dense dilated convolutions merging（DDCM）
-
-
 
 ## Experiment
 
