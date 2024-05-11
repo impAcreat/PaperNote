@@ -1,6 +1,4 @@
 # Multilingual Molecular Representation Learning via Contrastive Pre-training
-****
-
 ## Abstract:
 
 * 基于SMILES原理，设计MM-Deacon（multilingual molecular domain embedding analysis via contrastive learning) 
@@ -22,7 +20,7 @@
 
 * SMILES的局限性：
 
-  <img src="C:\Users\FNH\AppData\Roaming\Typora\typora-user-images\image-20231201163108291.png" alt="image-20231201163108291" style="zoom:80%;" />
+  <img src="./assets/image-20231201163108291.png" alt="image-20231201163108291" style="zoom:80%;" />
 
   * 有机化学物是被系统命名的：用基本词汇说明化合物的结构、优先考虑官能团，这有利于交流
   * SMILES的生成是通过遍历分子图实现的，无法实现IUPAC命名需求
@@ -67,7 +65,7 @@
 
 ### Molecule pre-training：
 
-<img src="./assets/image-20231203000430293.png" alt="image-20231203000430293" style="zoom:80%;" />
+<img src="./assets/image-20231203000430293-1715435931050-8.png" alt="image-20231203000430293" style="zoom:80%;" />
 
 #### Solve Problems：
 

@@ -1,7 +1,5 @@
 # Chemformer:
 
-****
-
 ## Abstract:
 
 *  Transformer模型+SMILES技术

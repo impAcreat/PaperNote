@@ -2,7 +2,7 @@
 
 ****
 
-![image-20240124165738187](C:\Users\FNH\OneDrive - stu.xmu.edu.cn\桌面\实验内容\ooad\javaee实验\images\image-20240124165738187.png)
+![image-20240124165738187](./assets/image-20240124165738187.png)
 
 ### 概述：
 
@@ -16,19 +16,19 @@
 
 #### （过程）
 
-![image-20240124171418057](C:\Users\FNH\OneDrive - stu.xmu.edu.cn\桌面\实验内容\ooad\javaee实验\images\image-20240124171418057.png)
+![image-20240124171418057](./assets/image-20240124171418057.png)
 
 #### （概率词典）
 
-![image-20240124180432815](C:\Users\FNH\OneDrive - stu.xmu.edu.cn\桌面\实验内容\ooad\javaee实验\images\image-20240124180432815.png)
+![image-20240124180432815](./assets/image-20240124180432815.png)
 
 #### （生成反应物）
 
-![image-20240124180612425](C:\Users\FNH\OneDrive - stu.xmu.edu.cn\桌面\实验内容\ooad\javaee实验\images\image-20240124180612425.png)
+<img src="./assets/image-20240124180612425.png" alt="image-20240124180612425" style="zoom:80%;" />
 
 #### （结果比较）
 
-![image-20240125095654119](./../../../实验内容/ooad/javaee实验/images/image-20240125095654119.png)
+<img src="./assets/image-20240125095654119.png" alt="image-20240125095654119" style="zoom: 80%;" />
 
 *****
 
@@ -59,9 +59,7 @@
 
 ****
 
-
-
-![image-20240124214405248](./../../../实验内容/ooad/javaee实验/images/image-20240124214405248.png)
+![image-20240124214405248](./assets/image-20240124214405248.png)
 
 ### 概述：
 
