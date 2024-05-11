@@ -37,18 +37,18 @@ k \in S, \quad S = { 0 } \quad \bigcup \quad { k_i \in N \quad | \quad log_2 k_i
 
 #### 在给出target token后，模型得到检索结果，改进模型：使用轻量级Meta-k Network来估计每个结果的重要性
 实现方法：
-  1. 检索出 K neighbors：**$N^t = \{ (h_i,v_i),i \in \{1,2,...,k\} \}$**
+  1. 检索出 K neighbors：$` N^t = \{ (h_i,v_i),i \in \{1,2,...,k\} \} `$
   2. 对 K neighbors：
-     * 求出其与目标上下文的 representation 的差距（distance）：**$d_i = d(h_i,f(x,\widehat{y}_{<t} ))$**
-     * 求出其与目标上下文的不同值的个数$c_i$
-  3. 将$d = (d_1,...,d_k)$与$c = (c_1,...,c_k)$作为输入特征（input features）连接到 Meta-k network 中
-  4. **Meta-k Network**：$f_{Meta}(.)$：
+     * 求出其与目标上下文的 representation 的差距（distance）
+     * 求出其与目标上下文的不同值的个数 $` c_i `$
+  3. 将$` d = (d_1,...,d_k) `$与$` c = (c_1,...,c_k) `$作为输入特征（input features）连接到 Meta-k network 中
+  4. **Meta-k Network**：$`f_{Meta}(.)`$：
      * 构造：2个前馈网络，它们之间的关系是非线性的
      * 计算 使用每个kNN预测结果（即k neighbors）的概率 ：
-     **$$ p_{Meta}(k) = softmax(f_{Meta}([d;c])) $$**
+     **$` p_{Meta}(k) = softmax(f_{Meta}([d;c])) `$**
 
   5. 做出预测：放弃原来kNN使用的超参数$\lambda$，由于Meta计算的值代表了一个kNN检索出的neighbor的可靠率，则该neighbor的value作为最终预测结果的概率为：
-   **$$p(y_t|x,\widehat{y}_{<t}) = \sum_{k_i\in S}p_{Meta}(k_i)\cdot p_{k_iNN}(y_t|x,\widehat{y}_{<t})$$**
+   **$` p(y_t|x,\widehat{y}_{<t}) = \sum_{k_i\in S}p_{Meta}(k_i)\cdot p_{k_iNN}(y_t|x,\widehat{y}_{<t}) `$**
 
 
 原理：
