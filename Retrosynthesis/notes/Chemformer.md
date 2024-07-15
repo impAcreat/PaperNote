@@ -43,8 +43,12 @@
 * 3个downstream seq2seq tasks：
   * direct synthesis prediction：直接合成
   * retrosynthesis prediction：逆合成
-  * molecular optimisation：分子优化
-
+  * molecular optimisation：分子优化，包括：
+    * 分子结构（官能团位置）
+    * 分子属性优化：在药物设计中，可能需要优化分子的生物活性、溶解性和代谢稳定性（依据需求，优化特性）
+    * 化学可行性的调整
+  * 属性预测：输入化学分子与目标属性，预测属性（往往包括物化生特性：溶解度、降解度等）
+  
 * 微调方法：与pre-training类似
 
 ## Results：
