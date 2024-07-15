@@ -88,4 +88,4 @@
 * 这一点体现在含环的化学反应中，与非环反应R-SMILES相比，环反应的编辑距离显著增大，而R-SMILES有其自身的局限性使编辑距离过大时，模型表现降低：
   
 
-![Alt text](pictures/image-3.png)
+<img src="pictures/image-3.png" alt="Alt text" style="zoom: 80%;" />

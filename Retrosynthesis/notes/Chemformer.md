@@ -65,7 +65,7 @@
 * 证明预训练加快retro收敛速度(convergence speed)：
   * Combined经过较少的epochs训练，即可达到SOTA
 
-![image-20231115235748902](./assets/image-20231115235748902.png)
+<img src="./assets/image-20231115235748902.png" alt="image-20231115235748902" style="zoom:67%;" />
 
 * 逆合成：包含Chemformer和Chemformer-Large的多种模型比较
   * Chem：500 epochs；Large：200 epochs
